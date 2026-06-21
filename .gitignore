@@ -1,0 +1,38 @@
+# Next.js
+.next/
+out/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Environment — never commit real keys
+.env
+.env.local
+.env.*.local
+
+# Band agent credentials — never commit
+band_agents/agent_config.yaml
+band_agents/.env
+
+# TypeScript build info
+tsconfig.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+band_agents/agent_config.yaml
+band_agents/.env
+.env.local
+.env*.local

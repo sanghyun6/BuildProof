@@ -1,0 +1,31 @@
+# BuildProof Band Audit Court — Agent Configuration (EXAMPLE)
+#
+# Copy this file to agent_config.yaml and paste the credentials Band gave
+# you when you created the four External Agents in the Band dashboard.
+#
+# agent_config.yaml is gitignored — never commit real credentials.
+#
+# agent_id  — the UUID Band assigned to the agent
+# api_key   — the API key Band issued for that agent
+# handle    — the @handle the agent uses in Band rooms (display only;
+#             agents work even if the handle in the Band UI differs)
+
+lead_judge:
+  agent_id: "uuid-for-lead-judge"
+  api_key: "band-api-key-for-lead-judge"
+  handle: "@your-band-handle/buildproofleadjudge"
+
+claim_prosecutor:
+  agent_id: "uuid-for-claim-prosecutor"
+  api_key: "band-api-key-for-claim-prosecutor"
+  handle: "@your-band-handle/buildproofclaimprosecutor"
+
+evidence_defender:
+  agent_id: "uuid-for-evidence-defender"
+  api_key: "band-api-key-for-evidence-defender"
+  handle: "@your-band-handle/buildproofevidencedefender"
+
+repo_forensics:
+  agent_id: "uuid-for-repo-forensics"
+  api_key: "band-api-key-for-repo-forensics"
+  handle: "@your-band-handle/buildproofrepoforensics"
